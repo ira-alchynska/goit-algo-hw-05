@@ -12,11 +12,11 @@ def binary_search(arr, target):
         else:
             right = mid - 1
 
-    # Знаходження верхньої межі
+
     upper_bound = arr[left] if left < len(arr) else None
     return (iterations, upper_bound)
 
-# Приклад використання:
+
 sorted_array = [1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7]
 target_value = 4.4
 result = binary_search(sorted_array, target_value)
